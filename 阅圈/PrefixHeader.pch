@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  新闻
+//
+//  Created by spare on 16/6/23.
+//  Copyright © 2016年 spare. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define SCREEN_WIDTH                    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT                   ([UIScreen mainScreen].bounds.size.height)
+#import "UIView+Frame.h"
+#import "AFNetworking.h"
+#import <BmobSDK/Bmob.h>
+#import "UIImageView+WebCache.h"
+#define Margin 10
+#define GrayColor [UIColor colorWithRed:244.0/255 green:244.0/255 blue:244.0/255 alpha:1]
+#define ImageSize 112
+#import "UIViewExt.h"
+#define GreenColor [UIColor colorWithRed:180.0/255 green:180.0/255 blue:144.0/255 alpha:1]
+#import "MBProgressHUD.h"
+#endif /* PrefixHeader_pch */
